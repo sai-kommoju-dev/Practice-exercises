@@ -1,0 +1,20 @@
+CLASS zcl_addition DEFINITION
+  PUBLIC
+  INHERITING FROM zcl_oopsabappract
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+    METHODS get_data
+        REDEFINITION .
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_addition IMPLEMENTATION.
+  METHOD get_data.
+    lv_var3 = lv_var1 + lv_var2.
+  ENDMETHOD.
+
+ENDCLASS.

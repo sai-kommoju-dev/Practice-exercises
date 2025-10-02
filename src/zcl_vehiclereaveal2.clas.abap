@@ -1,0 +1,24 @@
+CLASS zcl_vehiclereaveal2 DEFINITION
+  PUBLIC
+  INHERITING FROM zcl_vehicle
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+  methods: type REDEFINITION,
+           model REDEFINITION.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_vehiclereaveal2 IMPLEMENTATION.
+  METHOD model.
+
+  ENDMETHOD.
+
+  METHOD type.
+    lv_str = 'Bus'.
+  ENDMETHOD.
+
+ENDCLASS.
