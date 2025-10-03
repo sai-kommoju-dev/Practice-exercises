@@ -19,6 +19,7 @@ CLASS zcl_oopsabap1 IMPLEMENTATION.
    data(lo_obj) = NEW zcl_addition( ).
    data(lo_obj1) = NEW zcl_vehiclereveal( ).
    data(lo_obj2) = NEW zcl_vehiclereaveal2(  ).
+   data(lo_obj3) = NEW zcl_vehiclereveal3(  ).
   call method lo_obj->get_data
    EXPORTING
     lv_var1 = 1
@@ -35,7 +36,10 @@ CLASS zcl_oopsabap1 IMPLEMENTATION.
      IMPORTING
       lv_str = data(lv_typ1).
       out->write( |The type of vehicle is { lv_typ1 }| ).
-
+  call method lo_obj3->type
+     IMPORTING
+      lv_str = data(lv_typ2).
+      out->write( |The type of vehicle is { lv_typ2 }| ).
   ENDMETHOD.
 
 ENDCLASS.
