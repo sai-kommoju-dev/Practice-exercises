@@ -24,11 +24,11 @@ There are two types of constructors.
 * It should be defined with the name "constructor" in the class.
 
 * Abstract class: If a class contains abstract methods then it will become Abstract.
-* Abstract methods only have method definition
-* No implementation is required for Abstract methods
-* Abstract class can have both abstract and non-abstract methods
-* Abstract class cannot be instantiated
-* Abstract class can have attributes
+* Abstract methods only have method definition.
+* No implementation is required for Abstract methods.
+* Abstract class can have both abstract and non-abstract methods.
+* Abstract class cannot be instantiated.
+* Abstract class can have attributes.
 * Abstract methods can be redefined in subclasses.
 * Abstract methods do not have a method body.
 * Abstract methods must be implemented in subclasses.
