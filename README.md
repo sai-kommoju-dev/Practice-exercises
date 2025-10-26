@@ -1,4 +1,29 @@
-Abstract class: If a class contains abstract methods then it will become Abstract.
+* Class: It is a collection of attributes and methods.It is like a Blue-print of an object.
+* Object: Instantiation of the class is called an Object.
+* Example: Car is a class. Mercedes Benz is an object.
+
+* Access modifiers: 
+* Public: Components(Attributes + Methods) declared under Public section, can be accessed everywhere.
+* Protected: Components declared under Protected section, can be accessed within the class, in the subclass and not outside the class.
+* Private: Components declared under Private section, can be accessed within the class only. 
+
+Constructors:
+Constructor is a special method where it will be used to initiate the attributes with the required values by clearing default values.They will be called implicitly whenever 
+class is called and the object is instantiated.
+There are two types of constructors.
+* Static Constructor
+* Instance Constructor.
+* Static Constructor: It is called whenever the class is loaded into the memory.
+* It will be called once in the entire class execution.
+* It will not allow any parameters such as Importing, Exporting, Changing, Returning.
+* It will allow global static attributes only.
+* It should be defined with the name "class_constructor" in the class.
+* Instance Constructor.
+* Instance constructor is called implicity everytime when the object is instantiated or created.
+* It will permit only importing parameters.
+* It should be defined with the name "constructor" in the class.
+
+* Abstract class: If a class contains abstract methods then it will become Abstract.
 * Abstract methods only have method definition
 * No implementation is required for Abstract methods
 * Abstract class can have both abstract and non-abstract methods
